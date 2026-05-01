@@ -1,0 +1,63 @@
+### ─── 1. Login as admin (run first to get token) ───
+# Copy the `token` field from the response and paste below as @token
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "admin123"
+}
+
+### ─── 2. Variables ───
+@baseUrl = http://localhost:5000/api
+@token = paste_your_token_here
+
+### ─── 3. Register a new user ───
+POST {{baseUrl}}/users/register
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "email": "test@example.com",
+  "password": "test123"
+}
+
+### ─── 4. Get all products (public) ───
+GET {{baseUrl}}/products
+
+### ─── 5. Search products ───
+GET {{baseUrl}}/products?keyword=headphone
+
+### ─── 6. Get single product ───
+GET {{baseUrl}}/products/REPLACE_WITH_PRODUCT_ID
+
+### ─── 7. Get current user profile (auth) ───
+GET {{baseUrl}}/users/profile
+Authorization: Bearer {{token}}
+
+### ─── 8. List all users (admin) ───
+GET {{baseUrl}}/users
+Authorization: Bearer {{token}}
+
+### ─── 9. Create new product (admin) ───
+POST {{baseUrl}}/products
+Authorization: Bearer {{token}}
+
+### ─── 10. Update product (admin) ───
+PUT {{baseUrl}}/products/REPLACE_WITH_PRODUCT_ID
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Updated Product Name",
+  "price": 199.99,
+  "countInStock": 10
+}
+
+### ─── 11. Get my orders ───
+GET {{baseUrl}}/orders/myorders
+Authorization: Bearer {{token}}
+
+### ─── 12. Get all orders (admin) ───
+GET {{baseUrl}}/orders
+Authorization: Bearer {{token}}
