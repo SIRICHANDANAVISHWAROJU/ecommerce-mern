@@ -353,11 +353,6 @@ Run from the project root:
 
 ---
 
-##  License
-
-MIT — free to use for educational and personal projects.
-
----
 
 ##  Author
 
