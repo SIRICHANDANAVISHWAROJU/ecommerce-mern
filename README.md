@@ -4,7 +4,7 @@ A full-stack e-commerce web application built with **MongoDB, Express, React (Vi
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Customer side
 - Browse products with **search** & **pagination**
@@ -30,7 +30,7 @@ A full-stack e-commerce web application built with **MongoDB, Express, React (Vi
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer    | Technology                                                       |
 |----------|------------------------------------------------------------------|
@@ -41,7 +41,7 @@ A full-stack e-commerce web application built with **MongoDB, Express, React (Vi
 
 ---
 
-## ✅ Prerequisites
+##  Prerequisites
 
 Before you start, make sure these are installed:
 
@@ -54,7 +54,7 @@ Before you start, make sure these are installed:
 
 ---
 
-## 🚀 Setup & Run (in VS Code)
+##  Setup & Run (in VS Code)
 
 ### Step 1 — Open the project
 
@@ -114,17 +114,17 @@ npm run dev
 You should see:
 
 ```
-[BACKEND]  ✅ MongoDB connected: localhost
-[BACKEND]  🚀 Server running in development mode on port 5000
+[BACKEND]   MongoDB connected: localhost
+[BACKEND]   Server running in development mode on port 5000
 [FRONTEND] VITE v5.x  ready in 400 ms
 [FRONTEND] ➜  Local:   http://localhost:5173/
 ```
 
-Open **[http://localhost:5173](http://localhost:5173)** in your browser. 🎉
+Open **[http://localhost:5173](http://localhost:5173)** in your browser. 
 
 ---
 
-## 👤 Default Accounts (after seeding)
+##  Default Accounts (after seeding)
 
 | Role   | Email               | Password   |
 |--------|---------------------|------------|
@@ -134,7 +134,7 @@ Open **[http://localhost:5173](http://localhost:5173)** in your browser. 🎉
 
 ---
 
-## 📚 API Reference
+##  API Reference
 
 Base URL: `http://localhost:5000/api`
 
@@ -172,7 +172,7 @@ Base URL: `http://localhost:5000/api`
 
 ---
 
-## 🧪 Testing the application
+##  Testing the application
 
 ### Manual functional test checklist
 
@@ -210,7 +210,7 @@ GET http://localhost:5000/api/products/<product_id>
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ecommerce-mern/
@@ -281,7 +281,7 @@ ecommerce-mern/
 
 ---
 
-## ⚙️ Available Scripts
+##  Available Scripts
 
 Run from the project root:
 
@@ -296,7 +296,7 @@ Run from the project root:
 
 ---
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 ```
    ┌───────────────────────┐         ┌──────────────────────┐
@@ -331,7 +331,7 @@ Run from the project root:
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 | Problem                                | Solution                                                         |
 |----------------------------------------|------------------------------------------------------------------|
@@ -344,7 +344,7 @@ Run from the project root:
 
 ---
 
-## 🚢 Deployment Notes (optional)
+##  Deployment Notes (optional)
 
 - **Backend** — deploy to Render / Railway / Heroku. Set the same env vars.
 - **Frontend** — `npm run build` produces `frontend/dist/` which can be hosted on Vercel, Netlify, or served statically by Express.
@@ -353,12 +353,12 @@ Run from the project root:
 
 ---
 
-## 📜 License
+##  License
 
 MIT — free to use for educational and personal projects.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Built as a full-stack MERN assignment demonstrating the complete cycle of authentication, REST API design, state management, and role-based access control.
